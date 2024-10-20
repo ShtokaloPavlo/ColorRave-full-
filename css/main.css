@@ -1,0 +1,356 @@
+.main_first--section {
+  background-image: url(../img/Group\ 37\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main_container {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.main_first--logo--wrapper {
+  padding-top: 94px;
+  padding-left: 14px;
+}
+
+.main_first--title {
+  font-family: Playfair Display;
+  font-size: 144px;
+  font-weight: 400;
+  line-height: 191.95px;
+  text-align: left;
+  color: white;
+}
+
+.main_first--subtitle {
+  font-family: Playfair Display;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 95.98px;
+  text-align: left;
+  color: white;
+  margin-top: -20px;
+}
+
+.main_first--text {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.09px;
+  text-align: left;
+  color: white;
+  max-width: 508px;
+  margin-top: 12px;
+  margin-bottom: 41px;
+}
+
+.main_first--btn--wrapper {
+  padding-bottom: 183px;
+}
+
+.main_first--btn {
+  width: 254px;
+  height: 67px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: center;
+  color: white;
+  background-color: #8e32c6;
+  border: 0;
+  border-radius: 10px;
+}
+
+.main_second--section {
+  background-image: url(../img/Group\ 8\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 105px;
+  padding-bottom: 105px;
+}
+
+.main_second--section .main_container {
+  display: flex;
+  justify-content: center;
+  gap: 95px;
+  border: 5px solid #8e32c6;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.main_second--card--text {
+  font-family: Playfair Display;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 47.99px;
+  text-align: center;
+  color: white;
+  max-width: 161px;
+}
+
+.main_second--card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main_second--card:first-child {
+  border-right: 1px solid white;
+  padding-right: 50px;
+}
+
+.main_second--card:first-child::after {
+  content: "";
+  background-image: url("../img/Звёзды\ 1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  width: 240px;
+  height: 240px;
+}
+
+.main_second--card:last-child {
+  border-left: 1px solid white;
+  padding-left: 50px;
+}
+
+.main_second--card:last-child::after {
+  content: "";
+  background-image: url("../img/Грузан\ 1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  width: 240px;
+  height: 240px;
+}
+
+.main_second--card:nth-child(2)::before {
+  content: "";
+  background-image: url("../img/Краски\ 1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  width: 240px;
+  height: 240px;
+}
+
+.main_third--section {
+  background-image: url(../img/Group\ 6\ 1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+  position: relative;
+}
+
+.main_third--flower {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.main_third--container {
+  width: 100%;
+  max-width: 951px;
+  margin: 0 auto;
+}
+
+.main_third--title {
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 63.98px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 25px;
+  margin-bottom: 24px;
+}
+
+.main_third--cards {
+  display: flex;
+  padding-bottom: 114px;
+  justify-content: space-between;
+}
+
+.main_third--card {
+  padding: 49px 14px 29px 14px;
+  border-radius: 15px;
+}
+
+.main_third--card:first-child {
+  background: linear-gradient(
+    136.55deg,
+    #00e5e6 7.29%,
+    #00a8f7 26.04%,
+    #9a76f9 62.5%,
+    #cc5ec2 100%
+  );
+  box-shadow: 0px 14px 0px -5px #7b54b2, 0px 30px 0px -13px #533978;
+}
+
+.main_third--card:nth-child(2) {
+  background: linear-gradient(
+    136.55deg,
+    #ff68b4 0%,
+    #ff45e1 26.04%,
+    #ce3aff 62.84%,
+    #8961ff 100%
+  );
+  box-shadow: 0px 14px 0px -5px #9159b1, 0px 30px 0px -13px #61337c;
+}
+
+.main_third--card:last-child {
+  background: linear-gradient(
+    142.67deg,
+    #ffe128 0%,
+    #ff9b5c 30.21%,
+    #ff8381 63.29%,
+    #ff5489 100%
+  );
+  box-shadow: 0px 14px 0px -5px #b95a4c, 0px 30px 0px -13px #732f26;
+}
+
+.main_third--card--text {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+  color: #ffffff;
+  max-width: 228px;
+  margin-bottom: 8px;
+}
+
+.main_third--card--date {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  color: #d8d8d8;
+  margin-bottom: 47px;
+}
+
+.main_third--card--person {
+  display: flex;
+  gap: 5px;
+}
+
+.main_third--person--name {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  color: #ffffff;
+}
+
+.main_third--person--date {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.06px;
+  color: #d8d8d8;
+}
+
+.main_fourth--section {
+  background-image: url("../img/Group\ 2\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main_fourth--container {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 37px;
+}
+
+.main_fourth--title {
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 63.98px;
+  text-align: center;
+  color: white;
+  margin-bottom: 33px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 19px;
+}
+
+.form_first--line {
+  background-color: white;
+  border-radius: 50px;
+  max-width: 690px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 25px;
+  height: 60px;
+}
+
+.form_first--line input {
+  border: 0;
+  outline: none;
+  flex: 1;
+  font-size: 28px;
+}
+
+.form_first--line input::placeholder {
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32.81px;
+}
+
+.form_btn--confirm {
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 400;
+  border: 0;
+  outline: none;
+  line-height: 32.81px;
+  color: #8d8d8d;
+  background: none;
+  cursor: pointer;
+  padding-right: 35px;
+}
+.form_input {
+  width: 580px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 28px;
+  border: 0;
+  outline: none;
+  padding: 11px 24px;
+}
+
+.form_input::placeholder {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+  color: #959595;
+}
+
+.form_btn--order {
+  width: 248px;
+  height: 68px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: center;
+  color: white;
+  border-radius: 16px;
+  background-color: #8e32c6;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
